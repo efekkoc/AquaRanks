@@ -27,7 +27,8 @@ ranks:
   # 5 Server Ranks (Artwork Matching)
   # ----------------------------------------------------------------------------
   elite:
-    prefix: "<#A855F7><b>⚡ ‹[ELITE]› ⚡</b></#A855F7> "
+    glyph: "\uE005"
+    prefix: "\uE005 <#A855F7><b>⚡ ‹[ELITE]› ⚡</b></#A855F7> "
     weight: 60
     permissions:
       - "aquavip.perk.*"
@@ -35,7 +36,8 @@ ranks:
       - "aquapass.premium"
 
   mvp_plus:
-    prefix: "<#FFAA00><b>⭐ [MVP</b><#FF3333><b>+</b></#FF3333><b>] ⭐</b></#FFAA00> "
+    glyph: "\uE004"
+    prefix: "\uE004 <#FFAA00><b>⭐ [MVP</b><#FF3333><b>+</b></#FF3333><b>] ⭐</b></#FFAA00> "
     weight: 50
     permissions:
       - "aquavip.perk.*"
@@ -43,7 +45,8 @@ ranks:
       - "aquapass.premium"
 
   mvp:
-    prefix: "<#38BDF8><b>❄ [MVP] ❄</b></#38BDF8> "
+    glyph: "\uE003"
+    prefix: "\uE003 <#38BDF8><b>❄ [MVP] ❄</b></#38BDF8> "
     weight: 40
     permissions:
       - "aquavip.perk.*"
@@ -51,7 +54,8 @@ ranks:
       - "aquapass.premium"
 
   vip_plus:
-    prefix: "<#00AA00><b>❖ [VIP</b><#FFD700><b>+</b></#FFD700><b>] ❖</b></#00AA00> "
+    glyph: "\uE002"
+    prefix: "\uE002 <#00AA00><b>❖ [VIP</b><#FFD700><b>+</b></#FFD700><b>] ❖</b></#00AA00> "
     weight: 30
     permissions:
       - "aquavip.perk.fly"
@@ -63,7 +67,8 @@ ranks:
       - "aquachat.color"
 
   vip:
-    prefix: "<#7CFC00><b>✦ [VIP] ✦</b></#7CFC00> "
+    glyph: "\uE001"
+    prefix: "\uE001 <#7CFC00><b>✦ [VIP] ✦</b></#7CFC00> "
     weight: 20
     permissions:
       - "aquavip.perk.fly"
