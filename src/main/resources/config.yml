@@ -14,18 +14,64 @@ ranks:
     weight: 100
     permissions:
       - "*"
+
   admin:
     prefix: "<gradient:#f12711:#f5af19><b>[ADMIN]</b></gradient> "
     weight: 80
     permissions:
       - "aquastaff.*"
       - "aquasecurity.*"
-  vip:
-    prefix: "<gradient:#38ef7d:#11998e><b>[VIP]</b></gradient> "
-    weight: 20
+      - "aquavip.admin"
+
+  # ----------------------------------------------------------------------------
+  # 5 Server Ranks (Artwork Matching)
+  # ----------------------------------------------------------------------------
+  elite:
+    prefix: "<#A855F7><b>⚡ ‹[ELITE]› ⚡</b></#A855F7> "
+    weight: 60
     permissions:
+      - "aquavip.perk.*"
       - "aquachat.color"
       - "aquapass.premium"
+
+  mvp_plus:
+    prefix: "<#FFAA00><b>⭐ [MVP</b><#FF3333><b>+</b></#FF3333><b>] ⭐</b></#FFAA00> "
+    weight: 50
+    permissions:
+      - "aquavip.perk.*"
+      - "aquachat.color"
+      - "aquapass.premium"
+
+  mvp:
+    prefix: "<#38BDF8><b>❄ [MVP] ❄</b></#38BDF8> "
+    weight: 40
+    permissions:
+      - "aquavip.perk.*"
+      - "aquachat.color"
+      - "aquapass.premium"
+
+  vip_plus:
+    prefix: "<#00AA00><b>❖ [VIP</b><#FFD700><b>+</b></#FFD700><b>] ❖</b></#00AA00> "
+    weight: 30
+    permissions:
+      - "aquavip.perk.fly"
+      - "aquavip.perk.feed"
+      - "aquavip.perk.craft"
+      - "aquavip.perk.anvil"
+      - "aquavip.perk.enderchest"
+      - "aquavip.perk.hat"
+      - "aquachat.color"
+
+  vip:
+    prefix: "<#7CFC00><b>✦ [VIP] ✦</b></#7CFC00> "
+    weight: 20
+    permissions:
+      - "aquavip.perk.fly"
+      - "aquavip.perk.feed"
+      - "aquavip.perk.craft"
+      - "aquavip.perk.hat"
+      - "aquachat.color"
+
   member:
     prefix: "<gray>[Member] "
     weight: 1
